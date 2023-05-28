@@ -1,0 +1,236 @@
+.bg-container{
+    width:100vw;
+    height:100vh;
+    /* background-color: rgb(250, 225, 171); */
+    margin:0 auto;
+    text-align: center;
+    font-family:'Bai Jamjuree', sans-serif;
+}
+.header-bg{
+    background-image: url("Images_LPM/bg-header-desktop.png");
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.logo{
+    margin-top:50px;
+}
+.header-h{
+    font-weight: bold;
+    color:hsl(210, 10%, 33%);
+}
+.header-p{
+    margin:0 280px;
+    color:  hsl(201, 11%, 66%);
+}
+.button-1{
+    background-color: hsl(171, 66%, 44%);
+    border-style: none;
+    color:white;
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button-2{
+    background-color: hsl(233, 100%, 69%);
+    border-style: none;
+    color:white;
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+}
+.body-p{
+    margin:0 260px;
+    color: hsl(201, 11%, 66%);
+}
+
+.perks{
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+}
+.perks-cont{
+    /* margin:40px 0px 0px 30px; */
+    padding: 20px 80px 100px 80px;
+}
+.p-1{
+    color: hsl(210, 10%, 33%); 
+    margin:0;
+    padding:0;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+}
+.p-2{
+    color:hsl(201, 11%, 66%);
+    padding:0;
+    font-size:15px;
+    text-align: left;
+    
+}
+.computer{
+    width: 50%;
+}
+#access-1{
+    margin-top: 60px;
+    font-size: 30px;
+}
+#devices{
+    margin-top: 60px;
+}
+#access-2{
+    font-size: 30px;
+}
+.usages{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#body-p{
+    margin-top: 5px;
+}
+#u-1{
+    padding:10px;
+    margin:0 70px;
+}
+#u-name{
+    font-weight: bold;
+}
+#u-name-2{
+    font-weight: bold;
+    margin-top: 5px;
+}
+#u-p{
+    font-size:10px;
+    margin: 10px;
+    width: 200px;
+    color:hsl(201, 11%, 66%);
+}
+#logo-u{
+    margin:5px;
+}
+.companies{
+    margin-top: 60px;
+    width:100vw;
+}
+.c-1{
+    margin:40px;
+}
+#access-3{
+    margin-top: 60px;
+    font-size: 30px;
+}
+.secondbut{
+    margin-top: 30px;
+}
+.foot{
+    margin-top: 40px;
+    background-color: rgb(248, 248, 248);
+    padding-top: 20px;
+}
+.div-1{
+    margin-left:60px;
+}
+.svgs{
+    margin: 0px 50px 0px auto;
+    padding:auto 0px;
+    width:100px;
+}
+.foot{
+    display: flex;
+    flex-direction:row ;
+}
+
+@media only screen and (max-width:375px){
+    .bg-container{
+        width: 100vw;
+        overflow-x: hidden;
+        padding:10px;
+    }
+    .header-p{
+        margin:auto;
+    }
+    .button-2{
+        margin-top:5px;
+    }
+    .body-p{
+        margin:auto;
+    }
+    .perks {
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width:100vw;
+    }
+    .computer{
+        width: 100%;
+        height: 50%;
+        margin:0 auto;
+    }
+    #devices{
+        width:100%;
+        height:40%;
+    }
+    .usages{
+        display: flex;
+        flex-direction: column;
+    }
+    .p-1{
+        text-align: center;
+    }
+    .p-2{
+        text-align: center;
+        margin:0 auto;
+        padding:0px;
+    }
+    #u-1{
+        margin:0 40px;
+    }
+    .foot{
+        display: flex;
+        flex-direction:column ;
+    }
+    .div-1{
+        margin:0px auto;
+    }
+    .svgs{
+        margin: 0px auto;
+    }
+    #ancor{
+        margin-top: 15px;
+    }
+}
+
+/* @media only screen and (max-width: 375px) {
+    .bg-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .header-bg{
+        background-image: url(Images_LPM/bg-header-mobile.png);
+        background-size: cover;
+    }
+    .header-p{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .perks{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .button-2{
+        margin-top:5px;
+    }
+    .body-p{
+        margin: auto;
+    }
+    .computer{
+        width:100%;
+    }
+    .usages{
+        display:flex ;
+        flex-direction: column;
+    }
+} */
